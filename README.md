@@ -64,7 +64,7 @@ Resposta
 
 ```json
 {
-  "url": "https://xxx.com/DXB6V"
+  "url": "https://YYY.com/DXB6V"
 }
 ```
 
