@@ -25,7 +25,18 @@ cd url-shorted
 yarn
 ```
 
-3 - Execute o projeto
+3 - Variáveis de ambiente
+
+```
+POSTGRES_DB=
+POSTGRES_USER=
+POSTGRES_HOST=
+POSTGRES_PORT=
+POSTGRES_PASSWORD=
+DEFAULT_HOST=
+```
+
+4 - Execute o projeto
 
 ```bash
 yarn dev
@@ -59,4 +70,5 @@ Resposta
 
 Redirecionar para a URL original
 Ao acessar a URL encurtada (https://xxx.com/DXB6V), o serviço redireciona para a URL original salva no banco de dados. Caso a URL não seja encontrada, retorna o código de status HTTP 404 (Not Found).
+
 # url-shorted
